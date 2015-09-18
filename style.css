@@ -1,0 +1,78 @@
+body{
+	/* This is just a filler image for now. We can add whatever later. */
+	background-image:url(images/balloonToEarth.png);
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover; 
+	background-size: cover; 
+	background-attachment: fixed; 
+	font: 25px arial, sans-serif;
+	color: white;
+	position:relative; 
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#logo{
+	height: 50px;
+	width: 60px;
+}
+
+#mainTitle{
+	font: 50px arial, sans-serif;	
+	text-align: center;
+}
+
+#mainNavBar{
+	margin-top: 100px;
+	text-align:center;
+	font: 25px arial, sans-serif;
+}
+
+#mainNavBar ul { 
+    text-align:center; 
+    padding: 0 0px; 
+    border-radius: 0px; 
+    position:relative; 
+    list-style: none;     
+    display: inline-table; 
+} 
+
+#mainNavBar ul li { 
+	text-align:center;
+	margin: 10px;
+    float: left; 
+} 
+
+#mainNavBar ul li a{
+    color: white;
+}
+
+#mainNavBar ul li:hover a { 
+    color: #D8A830; 
+} 
+
+#mainNavBar ul ul { 
+    border-radius: 0px; padding: 0; 
+    position: absolute; 
+    margin-top:0px; 
+} 
+    #mainNavBar ul ul li { 
+        float: none;  
+        border-top: 1px solid #6b727c; 
+        position: relative; 
+    } 
+        #mainNavBar ul ul li a { 
+            padding: 5px 40px; 
+            color: #fff; 
+        }     
+          
+#mainNavBar ul ul ul { 
+    position: absolute; left: 100%; top:0; 
+} 
+
