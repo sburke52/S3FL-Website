@@ -1,0 +1,55 @@
+<html>
+<head>
+	<link rel="stylesheet" href="projects.css">
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/jquery.cycle.all.js"></script>
+	<script type="text/javascript">
+	$('#slider').cycle({ 
+    fx:     'scrollHorz',
+    speed:  'slow',
+	  
+    next:   '#next', 
+    prev:   '#prev' 
+	});
+	</script>
+</head>
+
+<body>
+	<div id="wrapper" align="center">
+
+		<header>
+			<div id="bar"></div>
+		</header>
+
+		<div id="wrapper2">
+			<div id="container">
+    			<div id="slider" text-align="left";>
+    				<a href="http://www.cansatcompetition.com/">
+    				<img src="images/CanSat.jpg" width="550" height="560" />
+    				<a href="http://umich.edu/~mburst/">
+        			<img src="images/MBurst.png" width="550" height="560" />
+        			<a href="http://www.nasa.gov/offices/education/centers/kennedy/technology/nasarmc.html#.VFKonvnF9uA">
+        			<img src="images/REST.png" width="550" height="560" />
+        			<a href="http://data.engin.umich.edu/groups/s3fl/mitee/">
+        			<img src="images/MiTEE.jpeg" width="550" height="560" />
+        			<a href="http://clasp-research.engin.umich.edu/groups/s3fl/projects/gotham/GOTHAM%20Boom%20PDR%2011_19_12.pdf">
+        			<img src="images/Gotham.png" width="550" height="560" />
+         		</div>
+    		</div>
+
+    	<div class="controller" id="prev"></div>
+    	<div class="controller" id="next"></div>
+
+		</div>
+	</div>
+<br />
+
+</body>
+
+<footer>
+
+	<p />
+
+</footer>
+</html>
