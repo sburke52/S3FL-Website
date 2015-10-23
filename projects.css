@@ -85,13 +85,12 @@ a {
 	float: left;
 	width: auto;
 	margin-right: 20px;
-	padding-top: 20px;
 	padding-bottom: 20px;
 	height: 100%;
 }
 
 #nav ul {
-	float: center;
+	float: right;
 	width: 60%;
 	overflow: hidden;
 }
