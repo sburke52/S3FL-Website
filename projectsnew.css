@@ -1,0 +1,114 @@
+body {
+	width: 100%;
+	margin: 0px;
+	text-align:center;
+	font: 25px arial, sans-serif;
+}
+
+#wrapper {
+	width: 100%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: none;
+	overflow:hidden;
+}
+
+#wrapper2{
+	display:block;
+	margin:auto;
+	height:80%;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 30px;
+	overflow:hidden;
+}
+
+
+#description{
+	height: 70%;
+	width: 100%;
+	float: bottom;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+}
+
+#slider{
+	height:100%;
+	width: 60%;
+	margin-left:20%;
+	margin-right:20%;
+	overflow:hidden;
+	z-index:0;
+	position:absolute;
+	display:block;
+}
+
+.project img{
+	width:100%;
+}
+
+.info{
+	text-align: left;
+	font-size: 14px;
+}
+
+#prev{
+	background-image:url(arrow_left.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+	width:10px;
+	position:relative;
+	z-index:10;
+	opacity:0;
+}
+
+#summary{
+	width:100%;
+	height:65%;
+}
+
+#next{
+	background-image:url(arrow_right.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+	width:10px;
+	position:relative;
+	z-index:11;
+	opacity:0;
+}
+
+#prev:hover, #next:hover{
+	opacity: 0.3;
+}
+
+#header {
+	background-color: #FFFFFF;
+	width: 100%;
+	padding-bottom:5%;
+	height:15%;
+}
+
+#bar {
+	margin-top:0px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-image:url(images/balloonToEarth.png);	
+}
+
+#footer {
+	float: bottom;
+	font-size: 12px;
+	text-align:center;
+	width: 100%;
+	height: 5%;
+	color: white;
+	background-color: black;
+}

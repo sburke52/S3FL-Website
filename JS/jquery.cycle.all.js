@@ -784,7 +784,7 @@ function getTimeout(curr, next, opts, fwd) {
 		if (t !== false)
 			return t;
 	}
-	return opts.timeout;
+	return opts.timeout;aLinkcolor
 }
 
 // expose next/prev function, caller must pass in state
@@ -846,7 +846,7 @@ $.fn.cycle.createPagerAnchor = function(i, el, $p, els, opts) {
 		debug('pagerAnchorBuilder('+i+', el) returned: ' + a);
 	}
 	else
-		a = '<a href="#">'+(i+1)+'</a>';
+		a = '<div id="#">'+(i+1)+'</div>';
 		
 	if (!a)
 		return;
