@@ -73,6 +73,14 @@ a {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
+#logo {
+	height: 50px;
+	width: 50px;
+	top: 10%;
+	right: 83%;
+	position:absolute;
+}
+
 .links a:links {
 	text-transform: uppercase;
 	font-weight: normal;
