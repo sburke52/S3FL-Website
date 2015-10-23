@@ -106,6 +106,26 @@ a {
 
 /* Navigation Bar End*/
 
+/* Social Media Start*/
+
+#social {
+	float: right;
+	width: 15%;
+	height: 90%;
+}
+#social img {
+	padding-right: 10px;
+	height: 30px;
+	width: 30px;
+	float: right;
+	max-width: 30%;
+}
+#facebook:hover, #twitter:hover, #youtube:hover {
+	opacity: 0.5;
+}
+
+/* Social Media End*/
+
 header {
 	background-color: #FFFFFF;
 	padding-left: auto;
