@@ -18,6 +18,17 @@ body{
 	transform: translate(-50%,-50%);
 }
 
+.helloworld{
+	background-color:blue;
+	color:yellow;
+	
+}
+
+#specific{
+	color:black;
+}
+}
+
 #logo{
 	height: 50px;
 	width: 60px;
@@ -27,6 +38,9 @@ body{
 	font: 50px arial, sans-serif;	
 	text-align: center;
 }
+
+/* All the stuff below is styling the nav bar at the bottom. I grabbed much of this from an old page,
+so it's not all being used per say. */
 
 #mainNavBar{
 	margin-top: 100px;
