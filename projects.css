@@ -65,6 +65,47 @@ body {
 	opacity: 0.3;
 }
 
+/* Navigation Bar Start*/
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.links a:links {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+#nav  li{
+	float: left;
+	width: auto;
+	margin-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 100%;
+}
+
+#nav ul {
+	float: center;
+	width: 60%;
+	overflow: hidden;
+}
+
+#nav a:visited {
+	color: #A8A8A8;
+}
+
+#nav a:hover {
+	color: #3399ff;
+}
+
+/* Navigation Bar End*/
+
 header {
 	background-color: #FFFFFF;
 	padding-left: auto;
