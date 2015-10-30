@@ -1,4 +1,5 @@
 body {
+	width: 100%;
 	margin: 0px;
 	text-align:center;
 	font: 25px arial, sans-serif;
@@ -6,35 +7,53 @@ body {
 
 #wrapper {
 	width: 100%;
-	height: auto;
-	min-width: 740px;
-	max-width: 10000px;
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: none;
+	overflow:hidden;
 }
 
 #wrapper2{
 	display:block;
 	margin:auto;
 	height:80%;
-	width:75%
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
 	padding-bottom: 30px;
+	overflow:hidden;
 }
 
-.scroll_img{
-	height:200px;
+
+#description{
+	height: 70%;
+	width: 100%;
+	float: bottom;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
 }
 
 #slider{
-	margin:auto;
-	margin-top:30px;
-	height:250px;
-	width:100%;
+	height:100%;
+	width: 60%;
+	margin-left:20%;
+	margin-right:20%;
 	overflow:hidden;
 	z-index:0;
 	position:absolute;
 	display:block;
+}
+
+.project img{
+	width:100%;
+}
+
+.info{
+	text-align: left;
+	font-size: 14px;
 }
 
 #prev{
@@ -42,11 +61,15 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	float: left;
-	height:500px;
-	width:50px;
+	width:10px;
 	position:relative;
 	z-index:10;
 	opacity:0;
+}
+
+#summary{
+	width:100%;
+	height:65%;
 }
 
 #next{
@@ -54,8 +77,7 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 	float: right;
-	height:500px;
-	width:50px;
+	width:10px;
 	position:relative;
 	z-index:11;
 	opacity:0;
@@ -65,98 +87,12 @@ body {
 	opacity: 0.3;
 }
 
-/* Navigation Bar Start*/
-a {
-	font-weight: bold;
-	text-decoration: none;
-	color: white;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-#logo {
-	height: 50px;
-	width: 50px;
-	top: 10%;
-	right: 83%;
-	position:absolute;
-}
-
-.links a:links {
-	text-transform: uppercase;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 18px;
-	text-decoration: none;
-}
-
-#nav  li{
-	float: left;
-	width: auto;
-	margin-right: 20px;
-	padding-bottom: 20px;
-	height: 100%;
-}
-
-#nav ul {
-	float: right;
-	width: 60%;
-	overflow: hidden;
-}
-
-#nav a:visited {
-	color: #A8A8A8;
-}
-
-#nav a:hover {
-	color: #3399ff;
-}
-
-/* Navigation Bar End*/
-
-/* Social Media Start*/
-
-#social {
-	float: right;
-	width: 15%;
-	height: 90%;
-}
-#social img {
-	padding-right: 10px;
-	height: 30px;
-	width: 30px;
-	float: right;
-	max-width: 30%;
-}
-#facebook:hover, #twitter:hover, #youtube:hover {
-	opacity: 0.5;
-}
-
-/* Social Media End*/
-
-header {
-	background-color: #FFFFFF;
-	padding-left: auto;
-	padding-right: auto;
-	width: 100%;	
-	height: 15%;
-}
-
-#bar {
-	margin-top:0px;
-	width: 1080px;
-	max-width: 100%;
-	height: 70px;
-	position: relative;
-	background-image:url(images/balloonToEarth.png);;	
-}
-
 footer {
 	font-size: 12px;
 	text-align:center;
 	padding-right: 100px;
 	width: 90%
 	height: 5%;
-	color: white;
 	background-color: black;
 	padding-top: 2px;
 	padding-bottom: 2px;
