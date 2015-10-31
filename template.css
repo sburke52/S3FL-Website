@@ -39,7 +39,7 @@ a {
 	height: 50px;
 	width: 50px;
 	top: 10%;
-	right: 80%;
+	right: 85%;
 	position:absolute;
 }
 
@@ -62,7 +62,7 @@ a {
 
 #nav ul {
 	float: right;
-	width: 60%;
+	width: 67%;
 	overflow: hidden;
 }
 
