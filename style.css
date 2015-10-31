@@ -2,7 +2,7 @@
 
 body{
 	/* This is just a filler image for now. We can add whatever later. */
-	background-image:url(images/homepage_4.jpg);
+	background-image:url(images/homepage.jpg);
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
