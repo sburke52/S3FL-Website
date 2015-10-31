@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
 header {
 	background-color: #FFFFFF;
 	padding-left: auto;
@@ -29,7 +30,9 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	color: white;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 2px;
+	font-family: 'Slabo 27px';
+	font: 25px;
 }
 
 #logo {

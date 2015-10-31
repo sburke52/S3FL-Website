@@ -1,6 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px);
+
 body{
 	/* This is just a filler image for now. We can add whatever later. */
-	background-image:url(images/balloonToEarth.png);
+	background-image:url(images/homepage_4.jpg);
 	-webkit-background-size: cover; 
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
@@ -18,11 +20,6 @@ body{
 	transform: translate(-50%,-50%);
 }
 
-.helloworld{
-	background-color:blue;
-	color:yellow;
-	
-}
 
 #specific{
 	color:black;
@@ -34,10 +31,6 @@ body{
 	width: 60px;
 }
 
-#mainTitle{
-	font: 50px arial, sans-serif;	
-	text-align: center;
-}
 
 /* All the stuff below is styling the nav bar at the bottom. I grabbed much of this from an old page,
 so it's not all being used per say. */
@@ -45,7 +38,10 @@ so it's not all being used per say. */
 #mainNavBar{
 	margin-top: 100px;
 	text-align:center;
-	font: 25px arial, sans-serif;
+	font-family: 'Slabo 27px';
+	font: 25px;
+	text-decoration: none;
+	letter-spacing: 2px;
 }
 
 #mainNavBar ul { 
@@ -59,16 +55,19 @@ so it's not all being used per say. */
 
 #mainNavBar ul li { 
 	text-align:center;
-	margin: 10px;
+	margin-top: 10px;
     float: left; 
 } 
 
 #mainNavBar ul li a{
     color: white;
+    text-decoration: none;
+    padding: 10px;
+	border-radius: 5px;
 }
 
 #mainNavBar ul li:hover a { 
-    color: #D8A830; 
+    background-color: #004C80;
 } 
 
 #mainNavBar ul ul { 
