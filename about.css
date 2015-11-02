@@ -4,6 +4,7 @@ body {
 	margin: 0px;
 	text-align:center;
 	font: 25px arial, sans-serif;
+	background-color: #F4F4F4;
 }
 
 #wrapper {
@@ -28,15 +29,13 @@ h1 {
 
 #about {
 	align: center;
-	max-width: 1080;
-	max-height: 600;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	max-width: 100%;
+	max-height: 640;
 }
 
 #mission {
 	align: center;
-	font-family: 'Open Sans';
+	font-family: 'Weibei TC';
 	text-align: center;
 	font-size: 18px;
 	color: gray;
@@ -48,90 +47,22 @@ h1 {
 
 #header {
 	align: center;
-	font-family: 'Open Sans';
+	font-family: 'Weibei TC';
 	font-size: 18px;
 	padding-right: 25%; 
 	padding-left: 25%;
-	padding-bottom: 20px;
+
 }
 
 #blurb {
 	align: center;
-    font-family: 'Open Sans';
+    font-family: 'Weibei TC';
 	text-align: justify;
-	font-size: 18px;
+	font-size: 17px;
 	padding-right: 15%; 
 	padding-left: 15%;
 	padding-bottom: 20px;
 }
-
-/* Navigation Bar Start*/
-a {
-	font-weight: bold;
-	text-decoration: none;
-	color: white;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
-#logo {
-	height: 50px;
-	width: 50px;
-	top: 10%;
-	right: 83%;
-	position:absolute;
-}
-
-.links a:links {
-	text-transform: uppercase;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 18px;
-	text-decoration: none;
-}
-
-#nav  li{
-	float: left;
-	width: auto;
-	margin-right: 20px;
-	padding-bottom: 20px;
-	height: 100%;
-}
-
-#nav ul {
-	float: right;
-	width: 60%;
-	overflow: hidden;
-}
-
-#nav a:visited {
-	color: #A8A8A8;
-}
-
-#nav a:hover {
-	color: #3399ff;
-}
-
-/* Navigation Bar End*/
-
-/* Social Media Start*/
-
-#social {
-	float: right;
-	width: 15%;
-	height: 90%;
-}
-#social img {
-	padding-right: 10px;
-	height: 30px;
-	width: 30px;
-	float: right;
-	max-width: 30%;
-}
-#facebook:hover, #twitter:hover, #youtube:hover {
-	opacity: 0.5;
-}
-
-/* Social Media End*/
 
 header {
 	background-color: #FFFFFF;
@@ -141,20 +72,12 @@ header {
 	height: 15%;
 }
 
-#bar {
-	margin-top:0px;
-	width: 1080px;
-	max-width: 100%;
-	height: 70px;
-	position: relative;
-	background-image:url(images/balloonToEarth.png);;	
-}
 
 footer {
 	font-size: 12px;
 	text-align:center;
 	padding-right: 100px;
-	width: 90%
+	width: 90%;
 	height: 5%;
 	color: white;
 	background-color: black;

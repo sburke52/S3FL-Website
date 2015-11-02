@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
 #wrapper2{
 	display:block;
 	margin:auto;
@@ -34,11 +36,17 @@
 
 .project img{
 	width:100%;
+	padding-bottom: 15px;
 }
 
 .info{
 	text-align: left;
 	font-size: 14px;
+	font-family: 'Open Sans';
+}
+
+.title{
+	font-family: 'Open Sans';
 }
 
 #prev{
