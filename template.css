@@ -65,10 +65,24 @@ a {
 #logo {
 	height: 50px;
 	width: 50px;
+<<<<<<< HEAD
 	padding-top: 0.5%;
 	right: 80%;
 	float: left;
 	padding-left: 12%;
+=======
+	top: 10%;
+	right: 85%;
+	position:absolute;
+}
+
+.links a:links {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 18px;
+	text-decoration: none;
+>>>>>>> origin/master
 }
 
 li{
@@ -82,7 +96,11 @@ li{
 
 ul {
 	float: right;
+<<<<<<< HEAD
 	width: 55.7%;
+=======
+	width: 67%;
+>>>>>>> origin/master
 	overflow: hidden;
 }
 
