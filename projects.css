@@ -1,5 +1,3 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
-
 #wrapper2{
 	display:block;
 	margin:auto;
@@ -25,9 +23,7 @@
 
 #slider{
 	height:100%;
-	width: 60%;
-	margin-left:20%;
-	margin-right:20%;
+	width: 100%;
 	overflow:hidden;
 	z-index:0;
 	position:absolute;
@@ -40,13 +36,15 @@
 }
 
 .info{
-	text-align: left;
-	font-size: 14px;
-	font-family: 'Open Sans';
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Weibei TC';
+	padding-right: 15%; 
+	padding-left: 15%;
 }
 
 .title{
-	font-family: 'Open Sans';
+	font-family: 'Weibei TC';
 }
 
 #prev{
