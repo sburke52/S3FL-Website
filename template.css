@@ -84,6 +84,7 @@ ul {
 	float: right;
 	width: 55.7%;
 	overflow: hidden;
+	padding-left: 0.005%;
 }
 
 a:visited {
