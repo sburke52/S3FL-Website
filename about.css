@@ -1,3 +1,4 @@
+
 h1 { 
     display: block;
     font-size: 2em;
@@ -9,13 +10,13 @@ h1 {
 }
 
 #about {
-	align: center;
+	text-align: center;
 	max-width: 100%;
 	max-height: auto;
 }
 
 #mission {
-	align: center;
+	text-align: center;
 	font-family: 'Weibei TC';
 	text-align: center;
 	font-size: 18px;
@@ -27,7 +28,7 @@ h1 {
 }
 
 #header {
-	align: center;
+	text-align: center;
 	font-family: 'Weibei TC';
 	font-size: 18px;
 	padding-right: 25%; 
@@ -35,7 +36,7 @@ h1 {
 }
 
 #blurb {
-	align: center;
+	text-align: center;
     font-family: 'Weibei TC';
 	text-align: justify;
 	font-size: 17px;
