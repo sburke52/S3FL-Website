@@ -9,12 +9,12 @@ header {
 	background-color: #FFFFFF;
 	padding-left: auto;
 	padding-right: auto;
-	width: 90%;	
+	width: 100%;	
 	height: 65px;
 }
 
 #bar {
-	width: 90%;
+	width: 100%;
 	max-width: 100%;
 	height: 65px;
 	position: absolute;
@@ -24,11 +24,12 @@ header {
 }
 
 #wrapper {
-	width: 100%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	background-repeat: none;
 	overflow:hidden;
+	background-color: white;
 }
 
 /* Navigation Bar Start*/
@@ -108,7 +109,7 @@ a:hover {
 #social {
 	width: 15%;
 	height: 90%;
-	padding-right: 2%;
+	padding-right: 10%;
 	padding-top: 20px;
 	float:right;
 }
@@ -130,6 +131,7 @@ body {
 	padding-top: 0px;
 	text-align:center;
 	font: 25px arial, sans-serif;
+	background-image: url(images/navibar.jpg);
 }
 
 footer {
