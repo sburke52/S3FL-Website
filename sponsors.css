@@ -19,6 +19,7 @@ h1 {
 
 #blurb {
 	align: center;
+	text-align: justify;
 	font-size: 18px;
 	padding-right: 25%; 
 	padding-left: 25%;
