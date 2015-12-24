@@ -14,31 +14,36 @@ h1 {
 }
 
 #mission {
-	align: center;
-	font-family: 'Weibei TC';
-	text-align: center;
+	text-align: left;
+	text-align: justify;
+	font-family: 'Avenir';
 	font-size: 18px;
 	color: gray;
-	padding-right: 25%; 
-	padding-left: 25%;
+	padding-right: 15%; 
+	padding-left: 15%;
 	padding-bottom: 20px;
 
 }
 
 #title {
-	align: center;
-	font-family: 'Weibei TC';
+	text-align: left;
+	font-family: 'Avenir';
 	font-size: 18px;
-	padding-right: 25%; 
-	padding-left: 25%;
+	padding-right: 15%; 
+	padding-left: 15%;
 }
 
 #blurb {
-	align: center;
-    font-family: 'Weibei TC';
+	text-align: center;
+    font-family: 'Avenir';
 	text-align: justify;
 	font-size: 17px;
 	padding-right: 15%; 
 	padding-left: 15%;
 	padding-bottom: 20px;
+}
+
+#block {
+	background-color:white;
+	width: 90;
 }

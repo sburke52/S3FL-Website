@@ -65,9 +65,9 @@ a {
 	font-weight: bold;
 	text-decoration: none;
 	color: white;
-	letter-spacing: 2px;
-	font-family: 'Slabo 27px';
-	font: 25px;
+	letter-spacing: 1px;
+	font-family: 'Avenir Next';
+	font: 27px;
 }
 
 #logo {
@@ -140,7 +140,7 @@ footer {
 	background-image:url(images/navibar.jpg);
 	width: 90%;
 	height: 5%;
-	padding-top: 2px;
+	padding-top: 20px;
 	padding-bottom: 2px;
 	float: center;
 	margin-left: 5%;
